@@ -31,8 +31,7 @@ public class TobyReactiveProgrammingApplication {
     SpringApplication.run(TobyReactiveProgrammingApplication.class, args);
   }
 
-  @Autowired
-  MyService myService;
+  //@Autowired MyService myService;
 
   /*
   @Bean
