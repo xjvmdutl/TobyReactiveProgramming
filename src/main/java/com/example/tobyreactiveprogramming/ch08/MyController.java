@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.async.DeferredResult;
-import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
+//import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter;
 
 @Slf4j
 @RestController
@@ -59,7 +59,7 @@ public class MyController {
     }
     return "OK";
   }
-
+  /*
   @GetMapping("/emitter")
   public ResponseBodyEmitter emmiter(){
     //데이터를 여러번에 나눠서 보낼수 있다.
@@ -76,5 +76,6 @@ public class MyController {
     });
     return emitter;
   }
+   */
 
 }
