@@ -1,4 +1,4 @@
-package com.example.tobyreactiveprogramming.ch10;
+package com.example.tobyreactiveprogramming.ch11;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -14,7 +14,6 @@ public class RemoteService {
     @GetMapping("/service1")
     public String service1(String req) throws InterruptedException {
       Thread.sleep(2000);
-      //throw new RuntimeException();
       return req + "/service1";
     }
 
